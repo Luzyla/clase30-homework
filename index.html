@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 30</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card" 
+        data-nombre="artilugia"
+        data-sexo="h"
+        data-color="atigrado">
+            <img src="http://www.placekitten.com/200">
+            <div class="title">
+                <h4>Artilugia</h4>
+            </div>
+        </div>
+    
+        <div class="card" 
+        data-nombre="boris"
+        data-sexo="m"
+        data-color="atigrado">
+            <img src="http://www.placekitten.com/300">
+            <div class="title">
+                <h4>Boris</h4>
+            </div>
+        </div>
+    
+        <div class="card" 
+        data-nombre="pippin"
+        data-sexo="i"
+        data-color="naranja">
+            <img src="http://www.placekitten.com/400">
+            <div class="title">
+                <h4>Pippin</h4>
+            </div>
+        </div>
+
+        <div class="card" 
+        data-nombre="pepo"
+        data-sexo="m"
+        data-color="blanco">
+            <img src="http://www.placekitten.com/150">
+            <div class="title">
+                <h4>Pepo</h4>
+            </div>
+        </div>
+      
+    
+    </div>
+    
+    <!--<button id="borrar">Borrar un gato</button>-->
+
+    <form class="formulario">
+        <div>
+            <label for="filtro-nombre">Nombre
+                <input class="busqueda-nombre" type="text" id="filtro-nombre">
+            </label>
+        </div>
+
+        <div>
+            <label>Filtrar por color</label>
+            
+            <label for="color-naranja">Naranja
+                <input type="checkbox" class="boton-color" value="naranja" id="color-naranja" />Naranja
+            </label>
+            
+            <label for="color-blanco">
+                <input type="checkbox" class="boton-color" value="blanco" id="color-blanco" />Blanco
+            </label>
+
+            <label for="color-atigrado">
+                <input type="checkbox" class="boton-color" value="atigrado" id="color-atigrado" />Atigrado
+            </label>
+            
+            <label for="color-todos">
+                <input type="checkbox" class="boton-color" value="todos" id="color-todos" />TODOS
+            </label>
+
+        </div>
+
+        <div>
+            <label for="sexo">Filtrar por Sexo</label>
+                
+            <label for="filtro-hembra">
+                <input class="filtro-sexo" type="radio" name="sexo" value="h" id="filtro-hembra">Hembra
+            </label>
+
+            <label for="filtro-macho">
+                <input class="filtro-sexo" type="radio" name="sexo" value="m" id="filtro-macho">Macho
+            </label>
+
+            <label for="filtro-indefinido">
+                <input class="filtro-sexo" type="radio" name="sexo" value="i" id="filtro-indefinido">Indefinido            </label>
+        </div>
+         
+    </form>
+    
+    <script src="main.js"></script>
+    
+
+
+</body>
+</html>
+
+  
